@@ -88,3 +88,4 @@ else:
                     print lines
         f1.write(str(i) + '\t' + str(float(Num)/10.0) + '\n')
     f1.close()
+    
