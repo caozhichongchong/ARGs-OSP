@@ -29,7 +29,7 @@ if args.e==0:
     for lines in open('ARGlist.txt','rb'):
         ARGlist.setdefault(lines.split('\t')[0],int(lines.split('\t')[-1].split('\r')[0].split('\n')[0]))
     ARGtable=dict()
-    for lines in open('ARG_mothertable.filter.rarefaction.ge','rb'):
+    for lines in open('WGD_ARG.mothertable.rarefaction','rb'):
         try:
             spnum=int(float(lines.split('\t')[-1].split('\r')[0].split('\n')[0]))
             ARGnum=int(float(lines.split('\t')[-2]))
